@@ -13,6 +13,7 @@ dependencies {
             include("*.jar")
         }
     )
+    testImplementation("org.slf4j:slf4j-api:2.0.9")
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.1")
     testImplementation("org.assertj:assertj-core:3.24.2")
 }
